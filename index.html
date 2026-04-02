@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DevLinks</title>
+
+<style>
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./assets/assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+p {
+  color: aliceblue;
+}
+#container {
+  width: 360px;
+  margin: 56px auto 0px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  width: 112px;
+  display: inline;
+}
+
+/*  */
+
+ul {
+  list-style: nome;
+  flex-direction: column;
+  display: flex;
+  gap: 16px;
+}
+
+ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+</style>
+    
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="avatar.png" alt="" />
+        <p>@Yan Dalw</p>
+      </div>
+      <ul>
+        <li>
+          <a href=" " target="_blank">Me siga!</a>
+        </li>
+        <li>
+          <a href=" https://github.com/YanpauloAlves" target="_blank"
+            >Veja meu portifólio</a
+          >
+        </li>
+        <li>
+          <a
+            href=" https://www.linkedin.com/in/yan-paulo-69a33922a/"
+            target="_blank"
+            >Acesse meu Linkedin</a
+          >
+        </li>
+        <li>
+          <a href=" " download="Curriculo_Adriel">Baixe meu currículo</a>
+        </li>
+      </ul>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
